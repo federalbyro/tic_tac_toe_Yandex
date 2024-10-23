@@ -23,7 +23,7 @@ pygame.display.set_caption('Крестики-нолики')
 screen.fill(BG_COLOR)
 
 # Шрифты для отображения текста
-FONT = pygame.font.SysFont(None, 40)
+FONT = pygame.font.SysFont('Arial', 40)
 
 # Класс для управления игровым полем
 class Board:
